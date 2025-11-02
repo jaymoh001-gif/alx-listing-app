@@ -4,10 +4,11 @@ import Button from '../components/common/Button'
 
 export default function Home() {
   const sampleCard = {
-    title: 'Cozy Apartment in Nairobi',
-    description: '2-bedroom apartment close to the city center.',
-    image: '/assets/sample1.jpg',
-  }
+  title: 'Cozy Apartment in Nairobi',
+  description: '2-bedroom apartment close to the city center.',
+  image: 'https://picsum.photos/400/300', // <- replace local file with placeholder
+}
+
 
   return (
     <div className="min-h-screen p-8">
